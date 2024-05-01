@@ -1,2 +1,26 @@
 
 
+
+#tic-board {
+    display: grid;
+
+    grid-template-rows: repeat(3,175px);
+    grid-template-columns: repeat(3,175px);
+  
+    background-color: lightblue; 
+    grid-template-areas: 50px 50px 50px ;
+
+}
+.box{
+    border: 1px solid;
+    font-size: 50%;
+    text-align: center;
+    background-color: red;
+    
+}
+.box:hover{
+    background-color: yellow;
+}
+#when-someone-wins {
+    position: absolute;
+}

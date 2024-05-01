@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <div class="box">
+    <div id="container">
 
         <div class="title">
             <h1>Tic Tac Toe</h1>
@@ -28,14 +28,67 @@
 
         </div>
         <div id="start-game" style="display: none;">
-            <h2>The Game</h2>
 
             <div class="player-information">
-                <div class="player-one-information"></div>
-                <div class="player-two-information"></div>
+                <div id="player-one-information"></div>
+                <p id = "player-one-name"></p>
+                <p id = "player-one-score"></p>
+
+                <div id="player-two-information"></div>
+                <p id = "player-two-name"></p>
+                <p id = "player-two-score"></p>
+
+                <div id="players-turn">
+                    <p id="player-turn"></p>
+
+                </div>
+                
             </div>
+
             <div id="the-game">
-                <div class="tic-board"></div>
+                <div id="tic-board">
+                    <h2 id="when-someone-wins"></h2>
+                    <div class="box top-left">
+                        <p id="top-left"></p>
+                    </div>
+                    <div class="box top-middle">
+                        <p id="top-middle"></p>
+
+                    </div>
+                    <div class="box top-right">
+                        <p id="top-right"></p>
+
+                    </div>
+                    <div class="box middle-left">
+                        <p id="middle-left"></p>
+
+                    </div>
+                    <div class="box middle-middle">
+                        <p id="middle-middle"></p>
+                    </div>
+                    <div class="box middle-right">
+                        <p id="middle-right"></p>
+
+                    </div>
+                    <div class="box bottom-left">
+                        <p id="bottom-left"></p>
+
+                    </div>
+                    <div class="box bottom-middle">
+                        <p id="bottom-middle"></p>
+
+                    </div>
+                    <div class="box bottom-right">
+                        <p id="bottom-right"></p>
+
+                    </div>
+
+                
+                </div>
+           
+            </div>
+            <div id="reset-box">
+                <button id="reset-button" >Reset Game</button>
             </div>
 
 
